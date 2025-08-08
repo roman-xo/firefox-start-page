@@ -1,4 +1,4 @@
-startup page for web browsers
+# startup page for web browsers
 
 To use:
 - Download or clone the repo
