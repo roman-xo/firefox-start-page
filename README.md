@@ -8,4 +8,4 @@ To use:
   ```
 
 - Set `index.html` as your browser's homepage or new tab page
-- Optionally replace `bg1.png` with your own background
+- Replace all info with your own
