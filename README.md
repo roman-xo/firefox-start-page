@@ -7,5 +7,5 @@ To use:
   git clone https://github.com/roman-xo/firefox-start-page
   ```
 
-- Set `index.html` as your browser's homepage or new tab page
+- Set `index.html` as your browser's homepage or new tab page (using an extension)
 - Replace all info with your own
