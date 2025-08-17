@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./style.css" />
   <title>New Tab</title>
-
 </head>
 <body>
   <div class="container">
     <div class="title">ROMAN TODD</div>
+
+    <div id="time" class="time-display"></div>
 
     <div class="search-box">
       <form action="https://www.google.com/search" method="GET" target="_blank">
@@ -28,6 +29,18 @@
   </div>
 
   <script>
+    // Clock display
+    function updateTime() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById('time').textContent = `${hours}:${minutes}:${seconds}`;
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+
+    // Weather fetch
     const lat = 36.154;
     const lon = -95.993;
 
