@@ -29,7 +29,6 @@
   </div>
 
   <script>
-    // Clock display
     function updateTime() {
       const now = new Date();
       const hours = String(now.getHours()).padStart(2, '0');
@@ -40,7 +39,6 @@
     setInterval(updateTime, 1000);
     updateTime();
 
-    // Weather fetch
     const lat = 36.154;
     const lon = -95.993;
 
