@@ -1,4 +1,4 @@
-# Custom styled start page
+# Custom browser start page
 
 To use:
 - Download or clone the repo
