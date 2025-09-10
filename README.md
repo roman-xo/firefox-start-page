@@ -1,4 +1,4 @@
-## Custom start page
+# Custom styled start page
 
 To use:
 - Download or clone the repo
