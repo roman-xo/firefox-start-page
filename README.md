@@ -9,3 +9,5 @@ To use:
 
 - Set `index.html` as your browser's homepage or new tab page
 - Replace all info with your own
+
+check mine out <a href=https://roman-xo.github.io/firefox-start-page/>here</a>
