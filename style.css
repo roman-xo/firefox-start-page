@@ -1,7 +1,7 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('/backgrounds/bg.png') no-repeat center center fixed;
+      background: url('backgrounds/bg2.png') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Courier New', monospace;
       color: #00FF88;
