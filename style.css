@@ -17,17 +17,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 26px; /* tighter vertical spacing */
+  gap: 26px;
 }
 
 .title {
-  font-size: 44px; /* smaller */
+  font-size: 44px;
   font-weight: bold;
   text-transform: lowercase;
 }
 
 .time {
-  font-size: 24px; /* smaller */
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -37,20 +37,20 @@ body {
 }
 
 .search-box::before {
-  content: "➜";                  /* right arrow symbol */
+  content: "➜";
   position: absolute;
-  left: 14px;                    /* distance from left edge */
+  left: 14px;
   top: 50%;
   transform: translateY(-50%);
-  color: #00ff88;                /* bright green */
+  color: #00ff88;
   font-size: 18px;
-  z-index: 2;                    /* keeps arrow above input blur */
+  z-index: 2;
   pointer-events: none;
 }
 
 .search-box input[type="text"] {
   width: 640px;
-  padding: 12px 18px 12px 40px;  /* extra left padding for arrow space */
+  padding: 12px 18px 12px 40px;
   border: none;
   border-radius: 8px;
   font-size: 16px;
@@ -70,7 +70,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
-  width: 640px; /* matches search bar width */
+  width: 640px;
 }
 
 .link {
@@ -94,7 +94,7 @@ body {
 }
 
 .link img {
-  width: 32px; /* smaller icons */
+  width: 32px;
   height: 32px;
   margin-bottom: 8px;
 }
